@@ -22,7 +22,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"KangarooRPG",
   "resources":[
@@ -30,7 +30,12 @@
     {"id":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
     {"id":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"id":{"name":"spr_bear","path":"sprites/spr_bear/spr_bear.yy",},},
+    {"id":{"name":"spr_hippo","path":"sprites/spr_hippo/spr_hippo.yy",},},
     {"id":{"name":"spr_kangroo","path":"sprites/spr_kangroo/spr_kangroo.yy",},},
+    {"id":{"name":"spr_parrot","path":"sprites/spr_parrot/spr_parrot.yy",},},
+    {"id":{"name":"spr_rabbit","path":"sprites/spr_rabbit/spr_rabbit.yy",},},
+    {"id":{"name":"spr_snake","path":"sprites/spr_snake/spr_snake.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
