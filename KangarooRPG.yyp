@@ -52,12 +52,9 @@
     {"id":{"name":"spr_parrot","path":"sprites/spr_parrot/spr_parrot.yy",},},
     {"id":{"name":"spr_rabbit","path":"sprites/spr_rabbit/spr_rabbit.yy",},},
     {"id":{"name":"spr_rooHands","path":"sprites/spr_rooHands/spr_rooHands.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"spr_snake","path":"sprites/spr_snake/spr_snake.yy",},},
-=======
     {"id":{"name":"spr_tilesetBasic","path":"sprites/spr_tilesetBasic/spr_tilesetBasic.yy",},},
     {"id":{"name":"tileset_Basic","path":"tilesets/tileset_Basic/tileset_Basic.yy",},},
->>>>>>> origin/Josh_Tileset
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
