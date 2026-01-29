@@ -33,7 +33,6 @@
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"MAKEFUNCTIONSWITHARGUMENTS","path":"scripts/MAKEFUNCTIONSWITHARGUMENTS/MAKEFUNCTIONSWITHARGUMENTS.yy",},},
     {"id":{"name":"scr_armsAttach","path":"scripts/scr_armsAttach/scr_armsAttach.yy",},},
-    {"id":{"name":"scr_armsFollow","path":"scripts/scr_armsFollow/scr_armsFollow.yy",},},
     {"id":{"name":"spr_kangroo","path":"sprites/spr_kangroo/spr_kangroo.yy",},},
     {"id":{"name":"spr_rooHands","path":"sprites/spr_rooHands/spr_rooHands.yy",},},
   ],
