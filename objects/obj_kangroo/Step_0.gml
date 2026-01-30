@@ -26,4 +26,3 @@ y += vsp;
 if(left) image_xscale = -1;
 else image_xscale = 1;
 
-primaryAttack = fnc_spawnPrimary();

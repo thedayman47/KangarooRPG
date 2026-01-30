@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @destroy hitbox
 // You can write your code in this editor
 
 instance_destroy()

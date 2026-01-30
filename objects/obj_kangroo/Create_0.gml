@@ -12,6 +12,7 @@ baseDamage = 10;
 finalDamage = 10;
 
 //Attributes
+experiencePoints = 0;
 hitPoints = 100;
 offense = 1;
 defense = 1;
@@ -19,6 +20,8 @@ energyStam = 1;
 rageSpecial = 1;
 
 //Attacks
+attackRange = 64;
+
 priAttSpeed = 1;
 altAttSpeed = 1;
 speAttSpeed = 1;

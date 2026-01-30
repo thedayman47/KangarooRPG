@@ -38,17 +38,16 @@ function scr_armMovement()
 	}
 
 	
-	//set the position of the spring offset a distance in the direction of the mouse
+	//set the position of the offset a distance in the direction of the mouse
 	x = owner.x + lengthdir_x(armOffset, mouseDirection);
 	y = owner.y + lengthdir_y(armOffset, mouseDirection);
 	
 	//change offset for lengthdir if attacking
 		if(primaryAttack)
 		{
-			armOffset = 64;
+			armOffset = 48;
 		} else { 
-			armOffset = 32;
-		}//end if else
-	
+			armOffset = 24;
+		}//end if else	
 	}//end if else
 }//end function
