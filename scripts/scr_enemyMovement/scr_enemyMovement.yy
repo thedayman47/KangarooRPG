@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_armsAttach",
+  "%Name":"scr_enemyMovement",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_armsAttach",
+  "name":"scr_enemyMovement",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
