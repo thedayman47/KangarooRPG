@@ -45,6 +45,7 @@
     {"id":{"name":"MAKEFUNCTIONSWITHARGUMENTS","path":"scripts/MAKEFUNCTIONSWITHARGUMENTS/MAKEFUNCTIONSWITHARGUMENTS.yy",},},
     {"id":{"name":"scr_armMovement","path":"scripts/scr_armMovement/scr_armMovement.yy",},},
     {"id":{"name":"scr_armsAttach","path":"scripts/scr_armsAttach/scr_armsAttach.yy",},},
+    {"id":{"name":"scr_calcDamage","path":"scripts/scr_calcDamage/scr_calcDamage.yy",},},
     {"id":{"name":"scr_combatControls","path":"scripts/scr_combatControls/scr_combatControls.yy",},},
     {"id":{"name":"scr_combatSystems","path":"scripts/scr_combatSystems/scr_combatSystems.yy",},},
     {"id":{"name":"scr_enemyAttack","path":"scripts/scr_enemyAttack/scr_enemyAttack.yy",},},
