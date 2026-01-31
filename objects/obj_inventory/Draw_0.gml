@@ -19,7 +19,7 @@ if(inventory_open == true)
 	
 		if(inventory[i] != -1)
 		{
-			draw_sprite(spr_placeholder_item, inventory[i], xx, yy);
+			draw_sprite(spr_everyItem, inventory[i], xx, yy);
 		}
 	}
 }
