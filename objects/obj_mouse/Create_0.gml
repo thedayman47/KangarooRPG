@@ -1,7 +1,4 @@
-//Inventory measurements:
-space_slots = 36;
-small_margin = 24;
-twice_margin = small_margin * 2;
+
 
 /// @description State Machine
 inventoryHover = -1;
@@ -25,17 +22,17 @@ mouseOver = function()
 		if(point_in_rectangle(
 		mx, 
 		my, 
-		x - 6, 
-		y - 6, 
-		x - 6 + small_margin+row_length*space_slots, 
-		y - 6 + small_margin+row_length*space_slots))
+		x - 48, 
+		y - 48, 
+		x - 48 + 192+row_length*72, 
+		y - 48 + 192+(((INVENTORY_SLOTS-1) div row_length) + 1) * 72))
 		{
 			//Checks if the mouse is over each slot
 			for(var i = 0; i < INVENTORY_SLOTS; i += 1)
 			{
-				var xx = x + (i mod row_length) * space_slots + 2;
-				var yy = y + (i div row_length) * space_slots + 2;
-				if(point_in_rectangle(mx, my, xx, yy, xx + 32, yy + 32))
+				var xx = x + (i mod row_length) * 72 + 2;
+				var yy = y + (i div row_length) * 72 + 2;
+				if(point_in_rectangle(mx, my, xx, yy, xx + 68, yy + 68))
 				{
 					other.slotHover = i;
 					other.inventoryHover = id;
@@ -64,13 +61,16 @@ stateDrag = function()
 	mouseOver();
 	
 	//Swap with slot if hovering
-	if (slotHover != 1) InventorySwap(inventoryDrag, slotDrag, inventoryHover, slotHover);
+	if(!mouse_check_button(mb_left))
+	{
+		if (slotHover != 1) InventorySwap(inventoryDrag, slotDrag, inventoryHover, slotHover);
 	
-	//Return to free state
-	state = stateFree;
-	itemDrag = -1;
-	inventoryDrag = -1;
-	slotDrag = -1;
+		//Return to free state
+		state = stateFree;
+		itemDrag = -1;
+		inventoryDrag = -1;
+		slotDrag = -1;
+	}
 }
 
 state = stateFree;

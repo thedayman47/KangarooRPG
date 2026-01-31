@@ -34,6 +34,9 @@ function InventorySwap(objectFrom, slotFrom, objectTo, slotTo)
 {
 	var _itemFrom = objectFrom.inventory[slotFrom];
 	
-	objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo];
-	objectTo.inventory[slotTo] = _itemFrom;
+	if(slotTo != -1 || objectTo != -1)
+	{
+		objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo];
+		objectTo.inventory[slotTo] = _itemFrom;
+	}
 }

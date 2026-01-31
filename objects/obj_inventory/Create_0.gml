@@ -12,8 +12,8 @@ inventory[2] = 1;
 */
 
 //Inventory measurements:
-space_slots = 36;
-small_margin = 24;
-twice_margin = small_margin * 2;
+space_slots = 72;
+small_margin = 48;
+twice_margin = small_margin * 4;
 
 inventory_open = false;
