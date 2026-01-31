@@ -8,4 +8,3 @@ inputKey = vk_space; //Key used to speed up text.
 
 guiW = display_get_gui_width();
 guiH = display_get_gui_height();
-
