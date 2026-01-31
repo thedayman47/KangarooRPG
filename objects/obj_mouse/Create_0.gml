@@ -22,17 +22,17 @@ mouseOver = function()
 		if(point_in_rectangle(
 		mx, 
 		my, 
-		x - 48, 
-		y - 48, 
-		x - 48 + 192+row_length*72, 
-		y - 48 + 192+(((INVENTORY_SLOTS-1) div row_length) + 1) * 72))
+		x - 6, 
+		y - 6, 
+		x - 6 + 12+row_length*36, 
+		y - 6 + 12+(((INVENTORY_SLOTS-1) div row_length) + 1) * 36))
 		{
 			//Checks if the mouse is over each slot
 			for(var i = 0; i < INVENTORY_SLOTS; i += 1)
 			{
-				var xx = x + (i mod row_length) * 72 + 2;
-				var yy = y + (i div row_length) * 72 + 2;
-				if(point_in_rectangle(mx, my, xx, yy, xx + 68, yy + 68))
+				var xx = x + (i mod row_length) * 36 + 2;
+				var yy = y + (i div row_length) * 36 + 2;
+				if(point_in_rectangle(mx, my, xx, yy, xx + 32, yy + 32))
 				{
 					other.slotHover = i;
 					other.inventoryHover = id;

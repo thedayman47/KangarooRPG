@@ -33,6 +33,7 @@
     {"id":{"name":"obj_kangroo","path":"objects/obj_kangroo/obj_kangroo.yy",},},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},},
     {"id":{"name":"obj_rooHands","path":"objects/obj_rooHands/obj_rooHands.yy",},},
+    {"id":{"name":"obj_screenManager","path":"objects/obj_screenManager/obj_screenManager.yy",},},
     {"id":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
     {"id":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
