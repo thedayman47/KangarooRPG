@@ -1,3 +1,5 @@
+if(instance_exists(obj_dialogue)) exit; //Leaves event if exist. In enemy's step event as well!
+
 var up = keyboard_check(ord("W"));
 var left = keyboard_check(ord("A"));
 var down = keyboard_check(ord("S"));
