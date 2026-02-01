@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_snakeNPC",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npcParent","path":"objects/obj_npcParent/obj_npcParent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npcParent/obj_npcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.welcomeDialog",},
+  ],
   "parent":{
     "name":"Dialogue Objects",
     "path":"folders/Objects/Dialogue Objects.yy",

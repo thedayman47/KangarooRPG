@@ -2,6 +2,7 @@
 
 if(instance_exists(obj_dialogue)) exit;
 
+//If player is close, then the player can press space to start a dialogue exchange
 if(instance_exists(obj_kangroo) && distance_to_object(obj_kangroo) < 8)
 {
 	canTalk = true;

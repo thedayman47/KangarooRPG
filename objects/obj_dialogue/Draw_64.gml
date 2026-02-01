@@ -1,3 +1,4 @@
+///@description Draws a dialogue box and dialogue text
 var _dx = 0;
 var _dy = guiH * 0.7;
 var _boxW = guiW;

@@ -1,17 +1,4 @@
-if(instance_exists(obj_dialogue)) exit; //Leaves event if exist. Add in enemy's step event as well!
-
-//Tests dialogue system
-/*
-if(keyboard_check_pressed(vk_space))
-{
-	createDialog([ //"[]" for arrays, "{}" for structs:
-	{
-		name: "Jeff",
-		msg: "My name's Jeff"
-	}
-	]);
-}
-*/
+if(instance_exists(obj_dialogue)) exit; //Leaves event if exist. In enemy's step event as well!
 
 var up = keyboard_check(ord("W"));
 var left = keyboard_check(ord("A"));
