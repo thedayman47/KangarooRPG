@@ -9,6 +9,7 @@ jumpStrength = 1;
 
 //interaction
 interactRange = 48;
+actionInteract = false;
 
 //Combat vars
 baseDamage = 10;
