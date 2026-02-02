@@ -3,7 +3,7 @@ scr_armsAttach(id, "Instances");
 scr_combatSystems()
 
 //Movement vars
-move_speed = 2.5;
+move_speed = 5;
 move_diagonally = move_speed * 0.707; //Don't ask why this number specifically, the tutorial didn't explain.
 jumpStrength = 1;
 

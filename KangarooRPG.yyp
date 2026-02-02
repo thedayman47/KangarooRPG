@@ -83,8 +83,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
     {"roomId":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
   ],
   "templateType":"game",
