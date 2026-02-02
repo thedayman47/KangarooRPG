@@ -23,6 +23,6 @@ else
 x += hsp;
 y += vsp;
 
-if(left) image_xscale = -1;
-else image_xscale = 1;
+if(left) image_xscale = -scale;
+else image_xscale = scale;
 
