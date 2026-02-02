@@ -26,3 +26,6 @@ y += vsp;
 if(left) image_xscale = -scale;
 else image_xscale = scale;
 
+//Keeps the player in the room.
+x = clamp(x, sprite_width/2, room_width - sprite_width/2);
+y = clamp(y, sprite_height/2, room_height - sprite_height/2);
