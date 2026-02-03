@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tileset_Basic",
+  "%Name":"tileset_Basic_2",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tileset_Basic",
-  "out_columns":12,
+  "name":"tileset_Basic_2",
+  "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":20,
+  "tileHeight":60,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":20,
+  "tileWidth":60,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":144,
+  "tile_count":16,
 }
