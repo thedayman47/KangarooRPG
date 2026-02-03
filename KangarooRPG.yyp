@@ -32,6 +32,10 @@
     {"$GMIncludedFile":"","%Name":"items.json","CopyToMask":-1,"filePath":"datafiles","name":"items.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"quests.json","CopyToMask":-1,"filePath":"datafiles","name":"quests.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
+  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -83,6 +87,7 @@
     {"id":{"name":"spr_backdrop","path":"sprites/spr_backdrop/spr_backdrop.yy",},},
     {"id":{"name":"spr_bear","path":"sprites/spr_bear/spr_bear.yy",},},
     {"id":{"name":"spr_dialogueBox","path":"sprites/spr_dialogueBox/spr_dialogueBox.yy",},},
+    {"id":{"name":"spr_dungeonBackground","path":"sprites/spr_dungeonBackground/spr_dungeonBackground.yy",},},
     {"id":{"name":"spr_enemyParent","path":"sprites/spr_enemyParent/spr_enemyParent.yy",},},
     {"id":{"name":"spr_everyItem","path":"sprites/spr_everyItem/spr_everyItem.yy",},},
     {"id":{"name":"spr_frogDude","path":"sprites/spr_frogDude/spr_frogDude.yy",},},
@@ -108,6 +113,9 @@
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
     {"roomId":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
+    {"roomId":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
+    {"roomId":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

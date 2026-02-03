@@ -35,3 +35,5 @@ priAttCooldown = 1;
 altAttCooldown = 1;
 speAttCooldown = 1;
 supAttCooldown = 1;
+
+scale = image_xscale;

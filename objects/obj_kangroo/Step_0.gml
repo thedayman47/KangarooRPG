@@ -25,8 +25,8 @@ else
 x += hsp;
 y += vsp;
 
-if(left) image_xscale = -1;
-else image_xscale = 1;
+if(left) image_xscale = -scale;
+else image_xscale = scale;
 
 //additional keybinds
 actionInteract = keyboard_check(ord("F"));
@@ -37,3 +37,6 @@ if(actionInteract)
 }
 
 
+//Keeps the player in the room.
+x = clamp(x, sprite_width/2, room_width - sprite_width/2);
+y = clamp(y, sprite_height/2, room_height - sprite_height/2);
