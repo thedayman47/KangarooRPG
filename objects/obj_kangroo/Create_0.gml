@@ -13,6 +13,8 @@ actionInteract = false;
 
 //Combat vars
 baseDamage = 10;
+critChance = 0.1;
+critPower = 1;
 finalDamage = 10;
 
 //Attributes
@@ -36,4 +38,8 @@ altAttCooldown = 1;
 speAttCooldown = 1;
 supAttCooldown = 1;
 
+<<<<<<< HEAD
 scale = image_xscale;
+=======
+//i was here :O
+>>>>>>> origin/Josh_skillTree

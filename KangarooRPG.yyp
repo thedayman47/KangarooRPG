@@ -54,6 +54,7 @@
     {"id":{"name":"obj_questManager","path":"objects/obj_questManager/obj_questManager.yy",},},
     {"id":{"name":"obj_rooHands","path":"objects/obj_rooHands/obj_rooHands.yy",},},
     {"id":{"name":"obj_screenManager","path":"objects/obj_screenManager/obj_screenManager.yy",},},
+    {"id":{"name":"obj_skillMenu","path":"objects/obj_skillMenu/obj_skillMenu.yy",},},
     {"id":{"name":"obj_snakeNPC","path":"objects/obj_snakeNPC/obj_snakeNPC.yy",},},
     {"id":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
     {"id":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
@@ -99,7 +100,11 @@
     {"id":{"name":"spr_questTab","path":"sprites/spr_questTab/spr_questTab.yy",},},
     {"id":{"name":"spr_rabbit","path":"sprites/spr_rabbit/spr_rabbit.yy",},},
     {"id":{"name":"spr_rooHands","path":"sprites/spr_rooHands/spr_rooHands.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_sideTabs","path":"sprites/spr_sideTabs/spr_sideTabs.yy",},},
+=======
+    {"id":{"name":"spr_skillMenu","path":"sprites/spr_skillMenu/spr_skillMenu.yy",},},
+>>>>>>> origin/Josh_skillTree
     {"id":{"name":"spr_slot","path":"sprites/spr_slot/spr_slot.yy",},},
     {"id":{"name":"spr_snake","path":"sprites/spr_snake/spr_snake.yy",},},
     {"id":{"name":"spr_tilesetBasic","path":"sprites/spr_tilesetBasic/spr_tilesetBasic.yy",},},
