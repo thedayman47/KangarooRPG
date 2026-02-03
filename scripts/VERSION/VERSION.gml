@@ -1,5 +1,5 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function VERSION(){
-	#macro BUILD_VERSION "0.2.13"
+	#macro BUILD_VERSION "0.2.14"
 }
