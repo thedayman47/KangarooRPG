@@ -29,4 +29,9 @@ else image_xscale = 1;
 //additional keybinds
 actionInteract = keyboard_check(ord("F"));
 
+if(actionInteract)
+{
+	scr_actionInteract()
+}
+
 

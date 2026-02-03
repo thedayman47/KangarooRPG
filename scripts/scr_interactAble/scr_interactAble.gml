@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// script that goes into objects or npc's that are interactable
 function scr_interactAble(){
 	
 	if (collision_circle(x, y, 64, obj_kangroo, false, true))

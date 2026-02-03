@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+//script to trigger when all conditions for a quest have been met, then reward the player
 function scr_questComplete(){
 
 }
