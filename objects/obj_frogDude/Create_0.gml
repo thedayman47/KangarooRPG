@@ -3,3 +3,5 @@
 questToGive = obj_questManager.questData[0];
 
 canInteract = false;
+inputKey = vk_space;
+canTalk = false;

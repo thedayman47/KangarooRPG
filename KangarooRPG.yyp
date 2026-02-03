@@ -108,6 +108,7 @@
     {"id":{"name":"spr_slot","path":"sprites/spr_slot/spr_slot.yy",},},
     {"id":{"name":"spr_snake","path":"sprites/spr_snake/spr_snake.yy",},},
     {"id":{"name":"spr_tilesetBasic","path":"sprites/spr_tilesetBasic/spr_tilesetBasic.yy",},},
+    {"id":{"name":"tileset_Basic_2","path":"tilesets/tileset_Basic_2/tileset_Basic_2.yy",},},
     {"id":{"name":"tileset_Basic","path":"tilesets/tileset_Basic/tileset_Basic.yy",},},
   ],
   "resourceType":"GMProject",

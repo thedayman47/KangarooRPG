@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemyParent",
-    "path":"sprites/spr_enemyParent/spr_enemyParent.yy",
+    "name":"spr_bear",
+    "path":"sprites/spr_bear/spr_bear.yy",
   },
   "spriteMaskId":null,
   "visible":true,
