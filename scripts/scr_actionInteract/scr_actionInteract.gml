@@ -25,4 +25,6 @@ function scr_actionInteract(){
 	{
 		show_debug_message("WHY ARE YOU TALKING TO YOURSELF?");
 	}
+	
+	ds_list_destroy(interactObjectList);
 }
