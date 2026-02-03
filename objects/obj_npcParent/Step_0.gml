@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ///@description Edit "dialog" in Variable Definitions in reference to a global array made in scr_dialogueFunctions.
 
 if(instance_exists(obj_dialogue)) exit;
@@ -15,6 +16,8 @@ else
 {
 	canTalk = false;
 }
+=======
 /// @description Insert description here
 // You can write your code in this editor
 scr_interactAble()
+>>>>>>> nathanielQuestSystem
