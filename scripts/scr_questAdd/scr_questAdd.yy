@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_questAdd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_questAdd",
+  "parent":{
+    "name":"QuestSystem",
+    "path":"folders/Scripts/QuestSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

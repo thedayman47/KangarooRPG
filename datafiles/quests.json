@@ -1,0 +1,41 @@
+[	
+	{
+		"questName": "Quest 1",
+		"questGiver": "NPC1",
+		"prerequisiteQuests": [],
+		"description": "This is the description for quest 1. It tells the player go search for a pink flower in the location of x,y.",
+		"reward": ["item", "map"],
+		"states": [
+		{
+		  "type": "move",
+		  "text": "Move to this location",
+		  "target": { "x": 100, "y": 200 }
+		},
+		{
+		  "type": "gather",
+		  "text": "Find some fuchsia bush",
+		  "target": "fuchsiaBush"
+		}
+	  ]
+	},
+
+	{
+		"questName": "Quest 2",
+		"questGiver": "NPC2",
+		"prerequisiteQuests": ["Quest 1"],
+		"description": "This is the description for quest 2. It tells the player to go kill Enemy Shithead near x,y.",
+		"reward": ["item", "fernSnack"],
+		"states": [
+		{
+		  "type": "move",
+		  "text": "Move to this location",
+		  "target": { "x": 500, "y": 500 }
+		},
+		{
+		  "type": "kill",
+		  "text": "Kill enemy shithead",
+		  "target": "obj_enemyParent"
+		}
+	  ]
+	}
+]
