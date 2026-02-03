@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 questBookOpen = false;
-openQuestList = ds_list_create();
+openQuestList = ds_list_create(); //change to activeQuestsList after complete
 currentQuest = undefined; 
 completedQuestList = ds_list_create();
 
