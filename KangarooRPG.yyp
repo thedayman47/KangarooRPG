@@ -27,15 +27,13 @@
     {"$GMFolder":"","%Name":"NPCs","folderPath":"folders/Sprites/NPCs.yy","name":"NPCs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tileset","folderPath":"folders/Sprites/Tileset.yy","name":"Tileset","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"items.json","CopyToMask":-1,"filePath":"datafiles","name":"items.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"quests.json","CopyToMask":-1,"filePath":"datafiles","name":"quests.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[
-    {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
-  ],
-  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -113,9 +111,6 @@
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
     {"roomId":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
-    {"roomId":{"name":"Dungeon1","path":"rooms/Dungeon1/Dungeon1.yy",},},
-    {"roomId":{"name":"FightRoom","path":"rooms/FightRoom/FightRoom.yy",},},
-    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
