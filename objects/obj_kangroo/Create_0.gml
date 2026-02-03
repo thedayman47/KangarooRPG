@@ -38,8 +38,6 @@ altAttCooldown = 1;
 speAttCooldown = 1;
 supAttCooldown = 1;
 
-<<<<<<< HEAD
 scale = image_xscale;
-=======
+
 //i was here :O
->>>>>>> origin/Josh_skillTree
