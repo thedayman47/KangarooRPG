@@ -11,11 +11,8 @@
     {"name":"inst_12F960AE","path":"rooms/FightRoom/FightRoom.yy",},
     {"name":"inst_1331F3A1","path":"rooms/FightRoom/FightRoom.yy",},
     {"name":"inst_660A8AAE","path":"rooms/FightRoom/FightRoom.yy",},
-<<<<<<< HEAD
     {"name":"inst_5802CFB4","path":"rooms/FightRoom/FightRoom.yy",},
-=======
     {"name":"inst_59A24279","path":"rooms/FightRoom/FightRoom.yy",},
->>>>>>> nathanielQuestSystem
   ],
   "isDnd":false,
   "layers":[
