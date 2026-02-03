@@ -7,6 +7,7 @@ var right = keyboard_check(ord("D"));
 
 var horizontal = (right - left);
 var vertical = (down - up);
+move_diagonally = move_speed * 0.707;
 
 var hsp = 0;
 var vsp = 0;

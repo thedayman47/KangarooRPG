@@ -9,6 +9,8 @@ jumpStrength = 1;
 
 //Combat vars
 baseDamage = 10;
+critChance = 0.1;
+critPower = 1;
 finalDamage = 10;
 
 //Attributes
@@ -31,3 +33,5 @@ priAttCooldown = 1;
 altAttCooldown = 1;
 speAttCooldown = 1;
 supAttCooldown = 1;
+
+//i was here :O
